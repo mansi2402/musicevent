@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+  body{
+    font-family:"Montserrat", sans-serif;
+    box-sizing: border-box;
+  }
+  .app {
+ height: 100vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: center;
+}
+header h1 {
+ margin: 50px 0px 30px 0px;
+ text-align: center;
+ font-size: 50px;
+}
+
+.keys {
+ background: rgb(18, 21, 22);
+ width: 100%;
+ display: flex;
+}
+.keys > div button{
+ height: 100px;
+ width: 90px;
+ flex: 1;
+ 
+}
+button{
+ padding: 60px 106px  ;
+ height: 40px;
+ border-radius: 12px;
+ align-content: flex-start;
+font-weight: bold;
+font-size: 1.5em;
+text-align: center;
+vertical-align: middle;
+}
+ .btn1 {
+ background:#02f570;
+ color: darkgreen;
+}
+.btn2 {
+ background: #d36060;
+ color:darkred ;
+}
+.btn3 {
+ background:#c060d3;
+ color: darkviolet;
+}
+.btn4 {
+ background: #d3d360;
+ color: orange;
+}
+.btn5 {
+ background: #6860d3;
+ color: rgb(185, 185, 253);
+}
+.btn6 {
+ background:rgb(199, 23, 82);
+ color: lightpink;
+}
+.btn7 {
+  background:#ee9612;
+  color: yellow;
+ }
